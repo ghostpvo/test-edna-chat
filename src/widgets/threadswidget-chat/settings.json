@@ -1,0 +1,82 @@
+{
+    "filename": "threads-sdk-web-gate/threadswidget-3.31.0.min.js",
+    "style": "threads-sdk-web-gate/threadswidget-3.31.0.min.css",
+    "webchat": {
+        "locale": "ru",
+        "package": "edna-test.rabitabank.com:4443",
+        "uid": "4O8uzSWdtZhwkaJu4WlBgLT9k1mkAnXR",
+        "websocket": "wss://edna-test.rabitabank.com:4443/socket",
+        "datastore": "https://edna-test.rabitabank.com:4443/files",
+        "apiUrl": "https://edna-test.rabitabank.com:4443",
+        "openGraph": true,
+        "history": {
+            "url": "https://edna-test.rabitabank.com:4443/history/v10",
+            "count": 20
+        },
+        "unauthorizedHistory": {
+            "url": "https://edna-test.rabitabank.com:4443/history/unauthorized",
+            "count": 20,
+            "enable": true,
+            "cookie": {
+                "Max-Age": 15552000
+            }
+        },
+        "webNotification": {
+            "title": "Threads Chat",
+            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMAAAAp4XiDAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABOUExURUxpcejo6Onp6enp6eTk5Onp6erq6uvr6+np6eXl5enp6ejo6Ovr6+zs7Ojo6Onp6ePj4+rq6pmZmdPT06enp+bm5p6entra2sLCwrm5ueNweO8AAAARdFJOUwBOiKUcunn78A3dnllqk8XwLooT9gAAAWVJREFUSMedllmShSAMRXHggYq+YhLd/0bbtluLJODA/SR1yiQmFxgj6tTEeymE7PmkOnarduRCRxJ8bK+BQSc05KGuljopWWfyqzLADlUp4qMv9aFJNfpGDUqu++pbfSHT6AdqXtSRqKeiUR+Cp6dn3zrcXW+d2eQs6fVRTo0CYQd2KKBQ/T8l6CNhNqdmxMi/2UFz5SNiY1BFw/4R9O3VAK0o/PuZEZ3NEJlReNwQjvIySCgzvnVYvENEx5R+h2jFprfIhEu5Rzjr3yI9I9t702QtmcBHDiIOxwVFFogsFCGJBYgEmlivLzMjeW3lc3JmY4Rs2dbkia7rmp/j/VcquvYxQg1A0bFc4IotdCxhMQhIQBytmHUmIeA0I1jkkASQ07SxXQRzoRDbxWlK9gqxwJQO63uC1NBgvcsTzkODPWzc26w8svGSy6LkSiq5+Aqu15JLvOipUPIgKXn2FD2uHj3hfgChdIQNPQdYDAAAAABJRU5ErkJggg=="
+        },
+        "checkURL": "https://pushserver.mfms.ru/brooma/health",
+        "schedule": {
+            "interval": 1000
+        },
+        "welcomeForm": {
+            "pre": {
+                "text": true,
+                "notice": true
+            },
+            "phone": {
+                "visible": true,
+                "required": false,
+                "mask": "+7 (XXX) XXX-XX-XX"
+            },
+            "email": {
+                "visible": true,
+                "required": false
+            },
+            "name": {
+                "visible": true,
+                "required": false
+            }
+        },
+        "inactivityForm": {
+            "phone": true,
+            "email": true,
+            "name": true
+        },
+        "theme": {
+            "skin": {
+                "name": "halcyon",
+                "colorMain": "#D8190F",
+                "colorSecond": "#FD9649",
+                "colorLines": "#31827C",
+                "colorSubText": "#31827C",
+                "colorText": "#010101",
+                "colorBackground": "#fff",
+                "width": "366px",
+                "height": "620px"
+            }
+        },
+        "pushNotification": {
+            "enable": true,
+            "firebaseConfig": {
+                "apiKey": "BAL6xgukszC0Xg9M_HvUeTSiK066sUF1H5rN71PYH8v1QUjKaPdPZ-gY2QKVC50QOotQIL97JZzPwDwAz_EmKLo",
+                "authDomain": "ibtestchat-123.firebaseapp.com",
+                "databaseURL": "https://ibtestchat-123.firebaseio.com",
+                "projectId": "ibtestchat-123",
+                "storageBucket": "ibtestchat-123.appspot.com",
+                "messagingSenderId": "890731413500",
+                "appId": "1:890731413500:web:08758b3cf9b85939a2fc79"
+            }
+        }
+    }
+}
